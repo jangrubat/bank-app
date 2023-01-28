@@ -3,8 +3,10 @@ import * as React from 'react';
 export default function Form(){
     return(
         <div className='bg-[#005bea]  px-10 py-20 rounded-3xl border-2'>
+            
            <h1 className='text-5xl text-[#ffffff] font-semibold drop-shadow-lg'>Grubs Money App</h1>
            <p className=' text-[#ffffff] font-medium text-lg text-center  mt-4'>Welcome back! Please enter your details.</p>
+
            <div className='mt-8'>
                         <div>
                             <label className='text-[#ffffff] text-lg font-medium ' htmlFor="">Username</label>
