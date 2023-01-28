@@ -2,7 +2,8 @@ import * as React from 'react';
 
 export default function Mainbank(){
     return(
-        <div className='flex flex-col w-full mx-[20%]'>
+        <div className='flex flex-col w-full m-[50%]'>
+
             <h1 className='text-5xl text-[#ffffff] font-semibold drop-shadow-lg mb-3'>Grubs Money App</h1>
 
             <div className='flex'>
