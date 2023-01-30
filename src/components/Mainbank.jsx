@@ -80,12 +80,15 @@ export default function Mainbank(){
 
 
                 <div className='w-[900px] h-[500px] bg-white border-2 rounded-3xl  p-8 m-2 '>
-                {/* <AccountBalance /> */}
-                <h1 className='text-[150px]'>PHP { accountBalance.toLocaleString()}</h1>
-                <div className=' flex mt-[120px] justify-between'>
+                <p className='text-[1.8rem] text-[#575757]'>Current Balance</p>
+                <div className='mt-8 flex items-end  justify-between'>
+                <h1 className='text-[3rem] self-start ' >PHP</h1>
+                <div className='text-[6rem]'>{ accountBalance.toLocaleString()}</div> 
+                </div>
+                <div className='flex mt-[15%] justify-between'>
                 <div>
-                <p className=' text-[30px] '>6453 3434 6567 3465</p>
-                <small>08/26</small>
+                <p className='text-[30px] tracking-[.5em] '>6453 3434 6567 3465</p>
+                <p>08/26</p>
 
                 </div>
                
