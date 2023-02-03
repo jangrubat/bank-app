@@ -10,9 +10,13 @@ import SendModal from './SendModal';
 import WidthdrawModal from './WidthdrawModal';
 
 
-export default function Mainbank(){
+export default function Mainbank({currentUser,currentBal}){
+    
 
-    const [accountBalance, updateBalance] = useState(0)
+
+
+
+    const [accountBalance, updateBalance] = useState(currentBal)
 
     
     const addDeposit = (inputNum)=>{
@@ -65,13 +69,16 @@ export default function Mainbank(){
 
     return(
 
+        <div className=" bg-[#005bea] flex w-full"> 
         
+        <div className=" w-full  flex items-center justify-center">
+ 
 
 
         
         <div className='flex flex-col w-full m-[50%]'>
 
-            <h1 className='text-5xl text-[#ffffff] font-semibold drop-shadow-lg mb-3'>Grubs Money App</h1>
+            <h1 className='text-5xl text-[#ffffff] font-semibold drop-shadow-lg mb-3'>Welcome back, {currentUser} </h1>
 
             <div className='flex'>
                 
@@ -187,6 +194,11 @@ export default function Mainbank(){
 
         
         </div>
+        </div>
+
+
+
+      </div>
 
         
         

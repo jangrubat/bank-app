@@ -22,7 +22,8 @@ const [inputNum, setNewInput] = useState('')
   return (
     <div className=' absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#787878c1] w-full h-screen'>
       <div className='flex flex-col absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] border-2 p-2 rounded-xl bg-white w-[800px] h-[400px]'>
-        <div className='flex justify-between'>
+        <div 
+        className='flex justify-between'>
         <h1 className='text-[50px] mx-10'> Send Money</h1>
         <button className='text-[40px] font-bold m-5' onClick={closeClicked}><BsXSquareFill/></button>
         
